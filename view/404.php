@@ -1,0 +1,1 @@
+<h1 class="text-center fs-1 text-danger">404</h1>

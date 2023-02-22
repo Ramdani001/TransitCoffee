@@ -1,0 +1,151 @@
+@media (max-width: 560px) {
+    #navbarNav{
+      padding: 5px;
+    }
+
+    #navbarNav li{
+      margin-bottom: 5px;
+    }
+
+    #navbarNav li a{
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+
+    /* Hero */
+        #Hero .container .contentHero{
+            margin-top: 50% !important;
+            text-align: center;
+            width: 100% !important;
+            text-shadow: 2px 2px 4px #00C9AC;
+        }
+
+        #Hero .container .contentHero #ProductMenu{
+            display: none;
+        }
+
+        #Hero .container .contentHero h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        #Hero #Content{
+            display: none;
+        }
+    /* End Hero */
+
+    /* About Us */
+        #AboutUs {
+            position: relative !important;
+            margin: 0 !important;
+            padding: 10px !important;
+            width: 100% !important;
+        }
+
+        #AboutUs .card .card-body{
+            display: block !important;
+        }
+
+        #AboutUs .card .card-body .ImgContent{
+            display: none !important;
+        }
+
+        #AboutUs .card .card-body .Content {
+            width: 100% !important;
+        }
+
+    /* End About Us */
+
+    /* Best Seller */
+
+    #bestSeller #bgContent{
+        margin: 0 !important;
+        background-size: auto !important;
+    }
+
+    #bestSeller #productContent .content{
+        margin: 2px !important;
+        width: 40% !important;
+    }
+
+    #bestSeller #productContent .content span{
+        display: none !important;
+    }
+
+    #bestSeller #productContent .content img{
+        width: 100% !important;
+        height: 150px !important;
+    }
+    #button {
+        margin-top: 10px !important;
+        width: 100% !important;
+    }
+
+    #button #contentBtn{
+        width: 50% !important;
+    }
+    
+    /* End Best Seller */
+
+    /* Reservasi */
+
+    .booking {
+        margin-top: 80px !important;
+    }
+    
+    .booking #Reserve {
+        margin: 5px !important;
+    }
+
+    .booking #Reserve .formReserve{
+        width: 80% !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    
+    /* End Reservasi */
+
+  }
+
+#Hero {
+    background-size: cover; 
+    background-image: url('../../gambar/BgHero.jpg');
+    height: 90vh;
+}
+
+#Hero .itemPages{
+    color: white;
+    cursor: pointer !important;
+}
+
+#Hero .itemPages:hover{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #00C9AC !important;
+    padding-left: 30px !important;
+    background-color: rgb(195,252,241, .2) !important;
+}
+
+.aktif{
+    font-size: 20px;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #00C9AC !important;
+    padding-left: 30px !important;
+    background-color: rgb(195,252,241, .2) !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.menuActive{
+    color: blue !important;
+    font-weight: bold !important;
+}
